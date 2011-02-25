@@ -1,4 +1,4 @@
-package com.mortalpowers.android.hellogl;
+package com.mortalpowers.android.openglfpstest;
 
 public class SmileyFace extends Mesh {
 	 public SmileyFace(float width, float height, float depth) {

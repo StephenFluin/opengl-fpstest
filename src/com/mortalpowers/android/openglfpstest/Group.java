@@ -1,4 +1,4 @@
-package com.mortalpowers.android.hellogl;
+package com.mortalpowers.android.openglfpstest;
 
 import java.util.Vector;
 

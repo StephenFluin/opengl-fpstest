@@ -1,4 +1,4 @@
-package com.mortalpowers.android.hellogl;
+package com.mortalpowers.android.openglfpstest;
 
 public class Cube extends Mesh {
 	 public Cube(float width, float height, float depth) {

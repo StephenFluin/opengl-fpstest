@@ -1,4 +1,4 @@
-package com.mortalpowers.android.hellogl;
+package com.mortalpowers.android.openglfpstest;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -9,6 +9,8 @@ import java.util.Vector;
 import javax.microedition.khronos.opengles.GL10;
 
 import android.util.Pair;
+
+
 
 public class Mesh {
 	// Our vertex buffer.
