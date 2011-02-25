@@ -6,8 +6,8 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true" android:allowClearUserData="true" android:persistent="false" android:allowTaskReparenting="true">
-        <activity android:com.mortalpowers.android.openglfpstest.OpenGLFPSTestPSTest"
-                  android:label="@string/app_name">
+        <activity 
+                  android:label="@string/app_name" android:name="com.mortalpowers.android.openglfpstest.OpenGLFPSTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
