@@ -155,6 +155,18 @@ public class ImageRenderer implements Renderer {
 		gl.glTranslatef(0f, -1.2f, -15f);
 		c.y = -1.2f;
 		c.z = -15f;
+		
+		for(int i = 0;i<15;i++) {
+			Cube brady = new Cube(1.5f, 1.5f, 1.5f);
+			brady.rgba = new float[] {.2f,1f,.2f,.5f};
+			gl.glTranslatef((float)Math.random(),(float)Math.random(),(float)Math.random());
+			brady.z = -(float)Math.random()*3-7f;
+			c.y = -1.5f*(float)Math.random();
+			c.x = -5f*(float)Math.random();
+			m.add(brady);
+		}
+		
+		
 		SmileyFace s = new SmileyFace(2f, 2f, .2f);
 		s.y = -3f;
 

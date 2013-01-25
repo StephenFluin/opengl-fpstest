@@ -7,7 +7,7 @@
 
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true" android:allowClearUserData="true" android:persistent="false" android:allowTaskReparenting="true">
         <activity 
-                  android:label="@string/app_name" android:name="com.mortalpowers.android.openglfpstest.OpenGLFPSTest">
+                  android:label="@string/app_name" android:name="com.mortalpowers.android.openglfpstest.NewAnimation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

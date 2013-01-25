@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">OpenGL FPS Test</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_select_alternate">Switch</string>
 </resources>
